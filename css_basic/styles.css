@@ -1,0 +1,26 @@
+/* Make the body a flex container and stack its children vertically */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* set minimum height to viewport height for sticky footer */
+    margin: 0;
+}
+
+/* Make the main element a flex container for its children, creating a row layout */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allows main to grow and take up remaining vertical space */
+}
+
+/* Make the article take up 2/3 of the available width */
+article {
+    flex: 2;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Make the aside take up 1/3 of the available width */
+aside {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
