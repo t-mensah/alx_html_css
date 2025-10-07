@@ -1,0 +1,48 @@
+/*HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ display: block;
+ }
+
+ ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:"";
+}
+*/
+
+body {
+line-height: 1;
+background-image: url("images/headphones_hero_1.jpg"); /*add image background to the web page*/
+color: white;
+margin-left: 20px;
+}
+
+li a{
+    color: white;
+    justify-content: right;
+}
+
+nav li {
+    display:inline-flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.header-container {
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
