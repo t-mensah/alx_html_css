@@ -1,0 +1,17 @@
+/* ... (rest of your CSS) ... */
+
+/* Header */
+header {
+  position: relative;
+  height: 100vh;
+  /* Correctly links to the background image inside the 'images' folder */
+  background: url("images/headphones_hero_1.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+/* ... (rest of your CSS) ... */
