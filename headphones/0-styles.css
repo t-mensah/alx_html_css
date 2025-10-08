@@ -1,11 +1,15 @@
-/* Reset */
+/* =========================== */
+/* RESET                      */
+/* =========================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variables */
+/* =========================== */
+/* VARIABLES                   */
+/* =========================== */
 :root {
   --primary-color: #ff6565;
   --text-color: #fff;
@@ -13,17 +17,22 @@
   --max-width: 1000px;
 }
 
-/* Body */
+/* =========================== */
+/* BODY                        */
+/* =========================== */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
-/* Header */
+/* =========================== */
+/* HEADER                      */
+/* =========================== */
 header {
   position: relative;
   height: 100vh;
+  /* ✅ Corrected folder path for hero image */
   background: url("images/headphones_hero_1.jpg") center/cover no-repeat;
   display: flex;
   flex-direction: column;
@@ -45,7 +54,9 @@ header::before {
   z-index: 1;
 }
 
-/* Navbar */
+/* =========================== */
+/* NAVBAR                      */
+/* =========================== */
 nav {
   width: 100%;
   max-width: var(--max-width);
@@ -69,11 +80,6 @@ nav {
   width: auto;
 }
 
-.logo h1 {
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -91,7 +97,9 @@ nav {
   color: var(--primary-color);
 }
 
-/* Hero Section */
+/* =========================== */
+/* HERO SECTION                */
+/* =========================== */
 .hero {
   position: relative;
   z-index: 2;
@@ -126,7 +134,9 @@ nav {
   opacity: 0.9;
 }
 
-/* Responsive */
+/* =========================== */
+/* RESPONSIVE DESIGN           */
+/* =========================== */
 @media (max-width: 768px) {
   .nav-links {
     gap: 15px;
@@ -154,3 +164,4 @@ nav {
     font-size: 1.4rem;
   }
 }
+
